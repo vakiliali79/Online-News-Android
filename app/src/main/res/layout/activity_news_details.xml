@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsDetails.NewsDetailsActivity">
+
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        tools:background="@color/black"/>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+
+        <TextView
+            android:id="@+id/source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Irish Tiems"
+            android:textAllCaps="true"
+            android:textColor="#FF9701" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBaseline="@+id/source"
+            android:text="2000-2-2"
+            android:textColor="#898989" />
+
+        <TextView
+            android:id="@+id/decription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/readStoryButton"
+            android:layout_below="@id/source"
+            android:layout_marginTop="19dp"
+            android:ellipsize="end"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/readStoryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#05171C"
+            android:text="Read Story"
+            android:textAllCaps="false"
+            android:textColor="#EEF3F2" />
+    </RelativeLayout>
+</RelativeLayout>
