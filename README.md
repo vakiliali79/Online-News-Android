@@ -11,6 +11,8 @@ Stay informed with NewsExplorer, an Android Kotlin application that fetches news
 
 ## Installation and Execution
 
+[Download APK](https://raw.githubusercontent.com/vakiliali79/Online-News-Android/master/Online-News.apk)
+
 To install and run the NewsExplorer app, follow these steps:
 
 1. Clone the project:
